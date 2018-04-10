@@ -1,5 +1,4 @@
 # -*-coding:utf8-*-
-
 import time
 from selenium import webdriver
 driver = webdriver.PhantomJS(executable_path="/Users/Xuan/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs")
