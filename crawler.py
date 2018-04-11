@@ -5,7 +5,6 @@ driver = webdriver.PhantomJS(executable_path="/Users/Xuan/Downloads/phantomjs-2.
 driver.get("https://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?ld=41166&protocol=https:&seqnr=11&ident=56.011313166.1521551544&rt=1&rtMode=DB-HYBRID&")
 data = driver.title
 driver.save_screenshot('./google.png')
-print data
 driver.find_element_by_name("input").send_keys(u"Göttingen")
 #driver.find_element_by_name("inputRef").send_keys(u"Göttingen#008000128")
 #driver.find_element_by_id("date").send_keys(u"20.03.188")
