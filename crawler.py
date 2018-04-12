@@ -1,5 +1,6 @@
 # -*-coding:utf8-*-
 import time
+import re
 from selenium import webdriver
 driver = webdriver.PhantomJS(executable_path="/Users/Xuan/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs")
 driver.get("https://reiseauskunft.bahn.de/bin/bhftafel.exe/dn?ld=41166&protocol=https:&seqnr=11&ident=56.011313166.1521551544&rt=1&rtMode=DB-HYBRID&")
