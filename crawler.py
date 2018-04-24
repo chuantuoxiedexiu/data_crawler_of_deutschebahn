@@ -24,4 +24,5 @@ def crawl_DB():
         f.write(pageSource.encode('ISO-8859-1'))
     driver.close()
 if __name__=='__main__':
+    crawl_DB()
     print 'success'
