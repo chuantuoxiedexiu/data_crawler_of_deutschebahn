@@ -23,4 +23,5 @@ def crawl_DB():
     with open('./source.html','w') as f:
         f.write(pageSource.encode('ISO-8859-1'))
     driver.close()
-print 'success'
+if __name__=='__main__':
+    print 'success'
